@@ -1,0 +1,10 @@
+Taipan
+
+v 0.1
+
+- Text based
+- No combat
+- Random Prices
+- Ship with inventory space
+- Limited destinations
+- Limited merchandise
