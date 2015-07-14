@@ -1,4 +1,5 @@
-Taipan
+Taipan Development Roadmap
+20150714
 
 v 0.1
 
@@ -8,3 +9,48 @@ v 0.1
 - Ship with inventory space
 - Limited destinations
 - Limited merchandise
+
+v 0.2
+
+- Warehouse(s?)
+- Money Lender
+- Bank
+
+v 0.3
+
+- Damage / Repairs
+- Weather
+
+v 0.4
+
+- Cannons
+- Combat
+- Ship Upgrades (Capacity, Armour)
+
+v 0.5
+
+- Disasters / Events (Regional)
+- Economic Trends
+
+v 0.6 
+
+- Crew / NPCs
+- Taverns / Shore-based storyline and quests
+
+v 0.7 
+
+- Politics
+- War
+- Disasters / Events (Worldwide)
+
+v 0.8
+
+- Static Graphics
+- Sound
+
+v 0.9
+
+- Tilesets / Maps
+- Animation / Sprites
+
+
