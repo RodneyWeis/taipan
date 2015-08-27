@@ -1,0 +1,36 @@
+20150827 Taipan Roadmap
+v 0.1
+- Text based
+- No combat
+- Ship with inventory space
+- Random Prices
+- Limited destinations
+v 0.2
+- Limited merchandise
+- Money Lender
+- Warehouse(s?)
+v 0.3
+- Bank
+- Damage / Repairs
+- Weather
+v 0.4
+- Cannons
+- Combat
+- Ship Upgrades (Capacity, Armour)
+v 0.5
+- Disasters / Events (Regional)
+- Economic Trends
+- More destinations
+v 0.6
+- Crew / NPCs
+- Taverns / Shore-based storyline and quests
+v 0.7
+- Politics
+- War
+- Disasters / Events (Worldwide)
+- Static Graphics
+v 0.8
+- Sound
+v 0.9
+- Tilesets / Maps
+- Animation / Sprites
