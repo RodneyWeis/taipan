@@ -1,0 +1,34 @@
+Taipan v 0.1.1
+20160330
+
+Documentation
+
+Geography:  City list (traditional)
+
+Hong Kong
+Shanghai
+Nagasaki
+Saigon
+Manila
+Singapore
+Batavia
+
+Q:  Whether to change the geography for this version - A: Not needed - plenty of variety to give the player options.  Could be extended.  Build in a modular way (Array of city objects?  Properties could include location, base price / supply / availability of each commodity, regional variables for crime rate, inspections, etc).
+
+Text-based:  
+
+Q:  How will the information be displayed on the screen?  A:  No graphics at all for the first iteration of the project.  Templates for each part of the screen to be loaded in as needed.  HTML / PHP / Jade templating.
+
+Random Prices:
+
+Within certain ranges, as well as an "exceptional" event for very cheap or very expensive merchandise.  e.g.
+Good Type		Normal range 		Cheap range 		Expensive range
+
+General Cargo		5-20			1-2			50-75
+Arms			25-60			5-10			100-150
+Silk			500-1000		60-150			2500-4000
+Contraband		6000-10000		400-1000		25000-40000
+
+
+
+
