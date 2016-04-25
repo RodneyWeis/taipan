@@ -1,11 +1,8 @@
-/* Style.css */
 
-* {
-	box-sizing: border-box;
-}
 
 body {
 	color: #22dd44;
 	background: #000;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
