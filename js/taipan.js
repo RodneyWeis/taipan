@@ -1,5 +1,10 @@
 /* Taipan.js */
 
+function readyFn(jQuery) {
+	console.log("jQuery ready");
+	test_utilities();
+}; // /function readyFn
+
 /* Global Data Initialization 
 	TODO:  Import JSON data from source repo
 */
@@ -9,29 +14,18 @@ var merchName = ['General Cargo', 'Arms', 'Silk', 'Contraband'];
 
 var merchBasePrice = [15, 50, 750, 9000];
 
-var cityPane = document.getElementById('city_list');
-var pricePane = document.getElementById('price_list');
-
 function display_cities() {
-	console.log('List of cities: ');
-	document.write('List of cities: ');
-	document.write('<ol>');
+	var $cityList = $( '#city_list');
 	for(var city = 0; city < cities.length; city++) {
-		console.log((city+1) + '. ' + cities[city]);
-		document.write('<li>' + cities[city] + '</li>');
+		$cityList.append('<li>' + cities[city] + '</li>');
 	}
-	document.write('</ol>');
 }
 
 function display_merch() {
-	console.log('List of merchandise: ');
-	document.write('List of merchandise: ');
-	document.write('<ol>');
+	var $priceList = $( '#price_list');
 	for(var merch = 0; merch < merchName.length; merch++) {
-		console.log((merch+1) + '. ' + merchName[merch] + ' Cost: ' + merchBasePrice[merch]);
-		document.write('<li>' + merchName[merch] + ' Cost: ' + merchBasePrice[merch] + '</li>');
-	}
-	document.write('</ol>');
+		$priceList.append('<li>' + merchName[merch] + ': ' + merchBasePrice[merch] + '</li>');
+	}	
 }
 
 function test_utilities() {
@@ -39,4 +33,4 @@ function test_utilities() {
 	display_merch();
 }
 
-
+$(document).ready(readyFn);
