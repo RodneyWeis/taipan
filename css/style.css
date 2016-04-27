@@ -1,8 +1,35 @@
-
+/* Style.css for Taipan */
 
 body {
+	padding: 1em;
 	color: #22dd44;
 	background: #000;
-	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 110%;
+	font-family: 'Consolas', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+#page_title {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.panel {
+	display: inline-block;
+	width: 25%;
+	float: left;
+}
+
+.panel > h2 {
+	padding-left: 2.66em;
+}
+
+.panel >ul, .panel > ol {
+	text-align: left;
+	padding-left: 4em;
+}
+
+
 
