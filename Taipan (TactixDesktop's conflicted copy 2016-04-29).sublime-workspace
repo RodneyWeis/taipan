@@ -4,12 +4,20 @@
 		"selected_items":
 		[
 			[
-				"new",
-				"newCityItem"
+				"wareh",
+				"warehouseStock"
 			],
 			[
-				"get",
-				"getElementById"
+				"inlin",
+				"inline-block"
+			],
+			[
+				"ware",
+				"warehouseList"
+			],
+			[
+				"warehou",
+				"warehouseStock"
 			]
 		]
 	},
@@ -35,7 +43,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 464,
+				"buffer_size": 768,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,7 +51,7 @@
 			"file": "js/taipan.js",
 			"settings":
 			{
-				"buffer_size": 975,
+				"buffer_size": 2341,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,7 +59,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 166,
+				"buffer_size": 417,
 				"line_ending": "Windows"
 			}
 		}
@@ -84,8 +92,6 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Rodney/Dropbox/Programming/bunnyguncarrot/index.html",
-		"/C/Users/Rodney/Dropbox/Programming/bunnyguncarrot/js/bgc.js",
 		"/C/Users/Rodney/Downloads/9781484209530/Chapter2/Chapter2/2.1.HTML5Canvas/public_html/index.html",
 		"/C/wamp64/www/sitefiles/stories.php",
 		"/C/wamp64/www/sitefiles/team.php",
@@ -110,6 +116,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"();\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -127,7 +134,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -142,8 +149,8 @@
 						"selection":
 						[
 							[
-								1034,
-								1034
+								86,
+								86
 							]
 						],
 						"settings":
@@ -168,40 +175,35 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								446,
+								446
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 2,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 464,
+						"buffer_size": 768,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								334,
-								334
+								704,
+								704
 							]
 						],
 						"settings":
@@ -214,54 +216,66 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 3,
 					"file": "js/taipan.js",
 					"settings":
 					{
-						"buffer_size": 975,
+						"buffer_size": 2341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								385,
-								385
+								348,
+								348
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 4,
 					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 166,
+						"buffer_size": 417,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								87,
-								87
+								65,
+								65
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -295,12 +309,19 @@
 				0,
 				2,
 				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.391871165644,
+			0.26057050592,
+			0.738040904198,
 			1.0
 		],
 		"rows":
@@ -330,7 +351,7 @@
 		[
 			[
 				"",
-				"/C/Users/Rodney/Dropbox/Web/CubeTheWeb/CubeTheWeb.sublime-project"
+				"/C/Users/Rod/Dropbox/I2X/I2X.sublime-project"
 			]
 		],
 		"width": 380.0
