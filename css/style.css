@@ -17,7 +17,7 @@ ul {
 }
 
 .panel {
-	display: inline-block;
+	display: block;
 	width: 25%;
 	float: left;
 }
